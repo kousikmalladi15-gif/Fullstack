@@ -1,0 +1,24 @@
+@font-face{
+    src:url(fonts/OpenSans-VariableFont_wdth,wght.ttf);
+    font-family:OpenSans;
+}
+@font-face{
+    src:url(fonts/Quantico-Bold.ttf);
+    font-family:Quantico
+}
+
+body{
+    background-color:rgba(33,33,33,0.7);
+}
+#h11{
+    font-size:33px;
+    color:skyblue;
+    font-family:Quantico, Arial, sans-serif;
+}
+#p1{
+    font-size:1em;
+    color:coral;
+    font-family:Opensans, "lucida console";
+    font-style:italic;
+    font-weight:bold;
+}

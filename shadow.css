@@ -1,0 +1,6 @@
+#box1{
+    text-shadow:3px 3px 5px tomato, -3px -3px 5px cyan;
+}
+/* selector {
+  text-shadow: offset-x offset-y blur-radius color;
+} */

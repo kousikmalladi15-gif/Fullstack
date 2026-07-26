@@ -1,0 +1,34 @@
+body{
+    background-color:silver;
+}
+
+
+#h11{
+    font-size:36px;
+    font-weight:bold;
+    font-family:Quantico, Roboto;
+    font-style:italic;
+    color:tomato;
+    border-style:ridge;
+    border-width:4px;
+    border-radius:9px;
+
+    
+}
+
+#p1{
+    font-size:20px;
+    font-weight:400;
+    font-family;Opensans;
+    font-style:italic;
+    color:rgb(0, 166, 255);
+    border-style:dashed;
+    border-width:3px;
+    border-top-color:blue;
+    border-bottom-color:blueviolet;
+    border-right-color:indigo;
+    border-left-color:rgb(85, 0, 255);
+    border-style: solid;
+/* border-style-top or bottom or right or left : are for fixing the size styel and color in teh same text */
+    
+}

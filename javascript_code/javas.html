@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sales Chart</title>
+</head>
+
+<body>
+
+    <canvas id="salesChart"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        const salesData = [
+            { month: "Jan", sales: 250 },
+            { month: "Feb", sales: 280 },
+            { month: "Mar", sales: 330 },
+            { month: "Apr", sales: 120 },
+            { month: "May", sales: 175 },
+            { month: "Jun", sales: 225 }
+        ];
+
+        const months = salesData.map(item => item.month);
+
+        const sales = salesData.map(item => item.sales);
+
+        new Chart(
+            document.getElementById("salesChart"),
+            {
+                type: "line",
+
+                data: {
+                    labels: months,
+
+                    datasets: [
+                        {
+                            label: "Monthly Sales",
+                            data: sales,
+                            borderWidth: 2,
+                            tension: 0.2
+                        }
+                    ]
+                },
+
+                options: {
+                    responsive: true,
+
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            }
+        );
+    </script>
+
+</body>
+</html>
