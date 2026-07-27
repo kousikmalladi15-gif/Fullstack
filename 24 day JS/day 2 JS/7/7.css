@@ -1,0 +1,22 @@
+#count-label{
+    font-size:160px;
+    display:block;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#button-container{
+    text-align:center;
+}
+.buttons{
+    padding:15px 20px;
+    font-size:15px;
+    color:white;
+    background-color:chocolate;
+    border-radius:5px;
+    cursor:pointer;
+    transition:background-color 0.1s;
+}
+.buttons:hover{
+    background-color:rgb(160, 67, 0);
+}
