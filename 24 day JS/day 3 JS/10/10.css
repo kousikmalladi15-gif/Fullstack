@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background-color:rgb(240, 240, 240)
+}
+
+#query{
+    font-size:5em;
+}
+#answer{
+    font-size:5em;
+}
+#calculator{
+    font-size:5em;
+    background-color:cornsilk;
+    color:blueviolet;
+}
+#calculator:hover{
+    background-color:blueviolet;
+    color:cornsilk;
+}
