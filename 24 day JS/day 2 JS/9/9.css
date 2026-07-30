@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background-color:rgb(240, 240, 240)
+}
+
+#header-1{
+    font-size: 100px;
+    color:rgb(15,211,218);
+}
+
+#roll-button{
+    padding : 75px 125px;
+    background-color: rgb(15, 211, 218);
+    color: aliceblue;
+    border-radius: 12%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+}
+
+#roll-button:hover{
+    background-color:rgb(26, 157, 161);
+}
+
+#roll-button:active{
+    background-color:rgb(255,255,255);
+    color:rgb(15,211,218);
+}
